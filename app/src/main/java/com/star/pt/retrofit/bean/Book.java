@@ -1,4 +1,4 @@
-package com.star.pt.bean;
+package com.star.pt.retrofit.bean;
 
 /**
  * Created by 吴世达 on 2018/4/26.

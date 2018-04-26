@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.star.pt.retrofit.RetrofitExcutor;
+import com.star.pt.retrofit.RetrofitHelper;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     public void onClick(View v){
         switch (v.getId()){
             case R.id.btn_1:
-                RetrofitExcutor.exc();
+                RetrofitHelper.exc();
                 break;
         }
     }

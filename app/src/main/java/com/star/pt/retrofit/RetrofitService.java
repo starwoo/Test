@@ -1,6 +1,6 @@
 package com.star.pt.retrofit;
 
-import com.star.pt.bean.Book;
+import com.star.pt.retrofit.bean.Book;
 
 import io.reactivex.Observable;
 import retrofit2.http.GET;
